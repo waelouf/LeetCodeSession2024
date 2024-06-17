@@ -1,1 +1,1 @@
-# LeetCodeSession2024
+# Leetcode Session 2024
