@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "242. Valid Anagram", "242. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Two Sum", "1. Two Sum\1. Two Sum.csproj", "{F69B09F4-96BA-493F-B3FD-C873A239B0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49. Group Anagrams", "49. Group Anagrams\49. Group Anagrams.csproj", "{A62B5E6E-9890-4AC8-813F-3C45F81D3914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49. Group Anagrams", "49. Group Anagrams\49. Group Anagrams.csproj", "{A62B5E6E-9890-4AC8-813F-3C45F81D3914}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basics", "Basics", "{F602DA03-DEF0-4A52-BF69-FEA7BD5E7C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347. Top K Frequent Elements", "347. Top K Frequent Elements\347. Top K Frequent Elements.csproj", "{1D87C441-8530-4B73-856D-D9658D71C420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "347. Top K Frequent Elements", "347. Top K Frequent Elements\347. Top K Frequent Elements.csproj", "{1D87C441-8530-4B73-856D-D9658D71C420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.csproj", "{86C2E006-F633-4B98-A2A6-D1C9F6F57E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{1D87C441-8530-4B73-856D-D9658D71C420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D87C441-8530-4B73-856D-D9658D71C420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D87C441-8530-4B73-856D-D9658D71C420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C2E006-F633-4B98-A2A6-D1C9F6F57E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C2E006-F633-4B98-A2A6-D1C9F6F57E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C2E006-F633-4B98-A2A6-D1C9F6F57E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C2E006-F633-4B98-A2A6-D1C9F6F57E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{F69B09F4-96BA-493F-B3FD-C873A239B0EA} = {79ADC786-6CE8-429C-A452-49FD5E12D33D}
 		{A62B5E6E-9890-4AC8-813F-3C45F81D3914} = {79ADC786-6CE8-429C-A452-49FD5E12D33D}
 		{1D87C441-8530-4B73-856D-D9658D71C420} = {79ADC786-6CE8-429C-A452-49FD5E12D33D}
+		{86C2E006-F633-4B98-A2A6-D1C9F6F57E74} = {79ADC786-6CE8-429C-A452-49FD5E12D33D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
