@@ -9,25 +9,3 @@ Console.WriteLine(solution.ContainsDuplicate(arr2));
 Console.WriteLine(solution.ContainsDuplicate(arr3));
 
 Console.ReadKey();
-
-
-public class Solution
-{
-	public bool ContainsDuplicate(int[] nums)
-	{
-		var hash = new HashSet<int>();
-		foreach (int num in nums)
-		{
-			if(!hash.Contains(num))
-			{
-				hash.Add(num);
-			}
-			else
-			{
-				return true;
-			}
-		}
-
-		return false;
-	}
-}
