@@ -11,7 +11,7 @@ public class BinarySearch
 		int start = 0;
 		int end = arr.Length - 1;
 
-		while (start != end) // change this
+		while (start < end) 
 		{
 			int searchIndex = (start + end) / 2;
 			if (arr[searchIndex] == item)
@@ -24,7 +24,7 @@ public class BinarySearch
 			}
 			else
 			{
-				end = searchIndex - 1;
+				end = searchIndex;
 			}
 		}
 
