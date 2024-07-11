@@ -53,7 +53,7 @@ public class Tree<T>
 	}
 }
 
-	public class TreeNode<T>
+public class TreeNode<T>
 {
 	public T Value { get; set; }
 

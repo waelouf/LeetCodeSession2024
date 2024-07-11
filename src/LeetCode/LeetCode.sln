@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree Traverse", "Tree Trave
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree BFS", "Tree BFS\Tree BFS.csproj", "{95078E50-9727-47A1-80FC-9AAE25AAF93B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compare 2 Trees", "Compare 2 Trees\Compare 2 Trees.csproj", "{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{95078E50-9727-47A1-80FC-9AAE25AAF93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95078E50-9727-47A1-80FC-9AAE25AAF93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95078E50-9727-47A1-80FC-9AAE25AAF93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -148,6 +154,7 @@ Global
 		{4540504E-0442-4958-918D-26583A4ACD3B} = {E0F1F560-AE6C-4D94-96F4-3FC8C43321DD}
 		{CD5DACC8-E194-4490-A4E0-9B19650B0F3B} = {4540504E-0442-4958-918D-26583A4ACD3B}
 		{95078E50-9727-47A1-80FC-9AAE25AAF93B} = {4540504E-0442-4958-918D-26583A4ACD3B}
+		{DC3E8EEE-D53B-4514-BFA9-ABAEDD04B3D4} = {4540504E-0442-4958-918D-26583A4ACD3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
