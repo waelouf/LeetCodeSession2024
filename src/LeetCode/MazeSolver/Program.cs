@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 
 Console.WriteLine("Hello, World!");
@@ -21,7 +22,7 @@ var maze2 = new string[]
 
 var solver = new MazeSolver();
 //var path = solver.Solve(maze, '#', new Point(2, 1), new Point(0, 5));
-var path = solver.Solve(maze2, '#', new Point(0,10), new Point(5, 1));
+var path = solver.Solve(maze2, 'x', new Point(0,10), new Point(5, 1));
 
 foreach (var item in path)
 {
@@ -30,89 +31,74 @@ foreach (var item in path)
 
 Console.ReadKey();
 
-public class MazeSolver
+public class MazeSolver()
 {
-	int[][] dir =
-	[
-		[-1,0],
-		[1,0],
-		[0,-1],
-		[0,1]
-	];
-
-	public bool Walk(string[] maze, char wall, Point current, Point end, bool[][] seen, Stack<Point> path)
+	int[][] dir = new int[][]
 	{
-		// off the maze
-		if(current.X < 0 || current.X >= maze.Length ||
-			current.Y < 0 || current.Y >= maze[0].Length)
+		[0,1],
+		[0,-1],
+		[1,0],
+		[-1,0]
+	};
+
+	public bool Walk(string[] maze, char wall, Point current, Point end, Stack<Point> path, bool[][] visitied)
+	{
+		if(current.X < 0 || current.Y < 0 || current.X >= maze.Length || current.Y >= maze[0].Length)
 		{
 			return false;
 		}
 
-		// hit a wall
+		if (visitied[current.X][current.Y])
+		{
+			return false;
+		}
+
 		if (maze[current.X][current.Y] == wall)
 		{
 			return false;
 		}
 
-		// found end point
-		if(current.X == end.X && current.Y == end.Y)
+		if(current.X == end.X && current.Y == current.Y)
 		{
-			path.Push(end);
+			path.Push(current);
 			return true;
 		}
 
-		// seen before
-		if (seen[current.X][current.Y])
-		{
-			return false;
-		}
-
-
-		// pre, recurse, post
-
-		// pre
-		seen[current.X][current.Y] = true;
 		path.Push(current);
+		visitied[current.X][current.Y] = true;
 
-		// recurse
 		for (int i = 0; i < dir.Length; i++)
 		{
-			var currDir = dir[i];
-			var newCurrent = new Point
+			var next = new Point
 			{
-				X = current.X + currDir[0],
-				Y = current.Y + currDir[1]
+				X = current.X + dir[i][0],
+				Y = current.Y + dir[i][1]
 			};
 
-			if(Walk(maze, wall, newCurrent, end, seen, path))
+			if(Walk(maze,wall, next, end, path, visitied))
 			{
 				return true;
 			}
 		}
-
-		// post
+		
 		path.Pop();
 		return false;
 	}
 
 	public Point[] Solve(string[] maze, char wall, Point start, Point end)
 	{
-		bool[][] seen = new bool[maze.Length][];
-		for (int i = 0;i < maze.Length;i++)
+		var visited = new bool[maze.Length][];
+		for (int i = 0; i < maze.Length; i++)
 		{
-			seen[i] = new bool[maze[i].Length];
+			visited[i] = new bool[maze[0].Length];
 		}
 
-		Stack<Point> path = new Stack<Point>();
-		
-
-		Walk(maze, wall, start , end, seen, path);
+		var path = new Stack<Point>();
+		Walk(maze, wall, start, end, path, visited);
 
 		return path.ToArray();
 	}
 }
-
 
 public class Point
 {
