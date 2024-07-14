@@ -67,6 +67,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Graphs", "7. Graphs", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adjacency Matrix", "Adjacency Matrix\Adjacency Matrix.csproj", "{46CDE647-5068-4294-AA7A-86001431062B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adjacency List", "Adjacency List\Adjacency List.csproj", "{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,10 @@ Global
 		{46CDE647-5068-4294-AA7A-86001431062B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CDE647-5068-4294-AA7A-86001431062B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CDE647-5068-4294-AA7A-86001431062B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +188,7 @@ Global
 		{AE2F0E88-7050-4BC0-906D-49BE71BF7C54} = {10DD0CD5-7850-45C9-8A7E-6AACB9D85856}
 		{7807B07A-96EA-40AE-BA3D-D464A4311FD1} = {E0F1F560-AE6C-4D94-96F4-3FC8C43321DD}
 		{46CDE647-5068-4294-AA7A-86001431062B} = {7807B07A-96EA-40AE-BA3D-D464A4311FD1}
+		{766DCCF7-99AD-4996-B8C2-E5AC10AAD035} = {7807B07A-96EA-40AE-BA3D-D464A4311FD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
