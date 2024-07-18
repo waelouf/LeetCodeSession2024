@@ -99,6 +99,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two Pointers", "Two Pointer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sliding Window", "Sliding Window", "{9B92E57C-9DCE-4663-A371-5770B2229C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{498B4003-4EAA-4D17-8B21-469618CC7B5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +225,10 @@ Global
 		{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,6 +277,8 @@ Global
 		{F8B80A58-566A-4F06-8D8F-BCF6DE40F78B} = {8D8D07C9-8FF3-48E0-91E7-5516AF9D9E73}
 		{837821BB-5DA5-4FB8-B311-D2654699229B} = {04A57D4A-2331-4245-AE6A-D0DEB2A57470}
 		{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C} = {837821BB-5DA5-4FB8-B311-D2654699229B}
+		{9B92E57C-9DCE-4663-A371-5770B2229C6F} = {04A57D4A-2331-4245-AE6A-D0DEB2A57470}
+		{498B4003-4EAA-4D17-8B21-469618CC7B5D} = {9B92E57C-9DCE-4663-A371-5770B2229C6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}

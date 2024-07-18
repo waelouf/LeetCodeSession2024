@@ -18,27 +18,26 @@ public class Solution
 	public IList<IList<int>> Subsets(int[] nums)
 	{
 		var results = new List<IList<int>>();
-		//var current = new Stack<int>();
-		//bfs(0);
-		//void bfs(int index)
-		//{
-		//	if (index >= nums.Length)
-		//	{
-		//		var lstCopy = new int[current.Count];
-		//		current.CopyTo(lstCopy, 0);
-		//		results.Add(lstCopy);
-		//		return;
-		//	}
-		//	var lstCopy = new int[current.Count];
-		//	current.CopyTo(lstCopy, 0);
-		//	results.Add(lstCopy);
+		var subset = new Stack<int>();		
 
-		//	current.Push(nums[index]);
-		//	bfs(index + 1);
-		//	current.Pop();
-		//	bfs(index + 1);
-		//}
+		void bfs(int index)
+		{
+			if (index >= nums.Length)
+			{
+				var lstCopy = new int[subset.Count];
+				subset.CopyTo(lstCopy, 0);
+				results.Add(lstCopy);
+				return;
+			}
 
+
+			subset.Push(nums[index]);
+			bfs(index + 1);
+			subset.Pop();
+			bfs(index + 1);
+		}
+
+		bfs(0);
 		return results;
 	}
 }
