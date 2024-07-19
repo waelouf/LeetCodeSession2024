@@ -103,6 +103,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sliding Window", "Sliding W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{498B4003-4EAA-4D17-8B21-469618CC7B5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "286, Walls and Gates", "286, Walls and Gates\286, Walls and Gates.csproj", "{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +231,10 @@ Global
 		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498B4003-4EAA-4D17-8B21-469618CC7B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -279,6 +285,7 @@ Global
 		{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C} = {837821BB-5DA5-4FB8-B311-D2654699229B}
 		{9B92E57C-9DCE-4663-A371-5770B2229C6F} = {04A57D4A-2331-4245-AE6A-D0DEB2A57470}
 		{498B4003-4EAA-4D17-8B21-469618CC7B5D} = {9B92E57C-9DCE-4663-A371-5770B2229C6F}
+		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579} = {AEFC9A49-6DCE-4A51-BA9D-77AED1B0210A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
