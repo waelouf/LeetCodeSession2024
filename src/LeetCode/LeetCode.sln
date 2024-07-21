@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "286, Walls and Gates", "286, Walls and Gates\286, Walls and Gates.csproj", "{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "417. Pacific Atlantic Water Flow", "417. Pacific Atlantic Water Flow\417. Pacific Atlantic Water Flow.csproj", "{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +292,7 @@ Global
 		{9B92E57C-9DCE-4663-A371-5770B2229C6F} = {04A57D4A-2331-4245-AE6A-D0DEB2A57470}
 		{498B4003-4EAA-4D17-8B21-469618CC7B5D} = {9B92E57C-9DCE-4663-A371-5770B2229C6F}
 		{FE31E4E6-C22F-4681-BB2E-8E10A70DC579} = {AEFC9A49-6DCE-4A51-BA9D-77AED1B0210A}
+		{A83BD016-1379-4EEA-9DDD-DF98BE18C95F} = {AEFC9A49-6DCE-4A51-BA9D-77AED1B0210A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
