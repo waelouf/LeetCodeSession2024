@@ -65,65 +65,71 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap", "Heap\Heap.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Graphs", "7. Graphs", "{7807B07A-96EA-40AE-BA3D-D464A4311FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adjacency Matrix", "Adjacency Matrix\Adjacency Matrix.csproj", "{46CDE647-5068-4294-AA7A-86001431062B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adjacency Matrix", "Adjacency Matrix\Adjacency Matrix.csproj", "{46CDE647-5068-4294-AA7A-86001431062B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adjacency List", "Adjacency List\Adjacency List.csproj", "{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adjacency List", "Adjacency List\Adjacency List.csproj", "{766DCCF7-99AD-4996-B8C2-E5AC10AAD035}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AmazonInterview", "AmazonInterview", "{EC2E75A4-ED87-4397-B090-CDB6B03AD460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question1", "Question1\Question1.csproj", "{70CF9970-A52D-4275-8437-3AB3615EA724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question1", "Question1\Question1.csproj", "{70CF9970-A52D-4275-8437-3AB3615EA724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{A62138E2-EF33-4A1C-BCB3-2DC0B3699AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{A62138E2-EF33-4A1C-BCB3-2DC0B3699AA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphs", "Graphs", "{AEFC9A49-6DCE-4A51-BA9D-77AED1B0210A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "200. Number of Islands", "200. Number of Islands\200. Number of Islands.csproj", "{41410C5F-3D61-43F3-8D9A-E713336CFCE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "200. Number of Islands", "200. Number of Islands\200. Number of Islands.csproj", "{41410C5F-3D61-43F3-8D9A-E713336CFCE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{2904C1E8-5DD1-4341-A5BC-3A780BB6BFA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{CACF1DF9-A482-4D58-8283-F5900EFA2817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100. Same Tree", "100. Same Tree\100. Same Tree.csproj", "{CACF1DF9-A482-4D58-8283-F5900EFA2817}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Maps & LRU", "8. Maps & LRU", "{3852401F-109F-487A-8ABD-AB6CE6711662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRU", "LRU\LRU.csproj", "{EEA0E21C-3643-408F-8071-ACFDB4B5E55E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRU", "LRU\LRU.csproj", "{EEA0E21C-3643-408F-8071-ACFDB4B5E55E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backtracking", "Backtracking", "{8D8D07C9-8FF3-48E0-91E7-5516AF9D9E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39. Combination Sum", "39. Combination Sum\39. Combination Sum.csproj", "{37C194A3-B317-408D-B2FE-A0B343C3A142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39. Combination Sum", "39. Combination Sum\39. Combination Sum.csproj", "{37C194A3-B317-408D-B2FE-A0B343C3A142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40. Combination Sum II", "40. Combination Sum II\40. Combination Sum II.csproj", "{3D075173-C929-42B7-8695-26E48497B3C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40. Combination Sum II", "40. Combination Sum II\40. Combination Sum II.csproj", "{3D075173-C929-42B7-8695-26E48497B3C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "78. Subsets", "78. Subsets\78. Subsets.csproj", "{F8B80A58-566A-4F06-8D8F-BCF6DE40F78B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "78. Subsets", "78. Subsets\78. Subsets.csproj", "{F8B80A58-566A-4F06-8D8F-BCF6DE40F78B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two Pointers", "Two Pointers", "{837821BB-5DA5-4FB8-B311-D2654699229B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Container With Most Water", "11. Container With Most Water\11. Container With Most Water.csproj", "{0FFEB40A-EAD8-41B5-8DCA-2CC141CAE20C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sliding Window", "Sliding Window", "{9B92E57C-9DCE-4663-A371-5770B2229C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{498B4003-4EAA-4D17-8B21-469618CC7B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "121. Best Time to Buy and Sell Stock", "121. Best Time to Buy and Sell Stock\121. Best Time to Buy and Sell Stock.csproj", "{498B4003-4EAA-4D17-8B21-469618CC7B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "286, Walls and Gates", "286, Walls and Gates\286, Walls and Gates.csproj", "{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "286, Walls and Gates", "286, Walls and Gates\286, Walls and Gates.csproj", "{FE31E4E6-C22F-4681-BB2E-8E10A70DC579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "417. Pacific Atlantic Water Flow", "417. Pacific Atlantic Water Flow\417. Pacific Atlantic Water Flow.csproj", "{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "417. Pacific Atlantic Water Flow", "417. Pacific Atlantic Water Flow\417. Pacific Atlantic Water Flow.csproj", "{A83BD016-1379-4EEA-9DDD-DF98BE18C95F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked List", "Linked List", "{CCE9C8B3-FAD9-4A66-B635-7A541FF12975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Merge Two Sorted Lists", "21. Merge Two Sorted Lists\21. Merge Two Sorted Lists.csproj", "{4206A4CE-D958-444B-B214-65D9E9394EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21. Merge Two Sorted Lists", "21. Merge Two Sorted Lists\21. Merge Two Sorted Lists.csproj", "{4206A4CE-D958-444B-B214-65D9E9394EB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List\19. Remove Nth Node From End of List.csproj", "{0D5BA42A-88DC-4846-85FC-9EA7B615E1EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List\19. Remove Nth Node From End of List.csproj", "{0D5BA42A-88DC-4846-85FC-9EA7B615E1EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "141. Linked List Cycle", "141. Linked List Cycle\141. Linked List Cycle.csproj", "{F746F905-89FB-4618-A7FB-3BD9B0C58435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "141. Linked List Cycle", "141. Linked List Cycle\141. Linked List Cycle.csproj", "{F746F905-89FB-4618-A7FB-3BD9B0C58435}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-D Dynamic Programming", "1-D Dynamic Programming", "{A8974EFE-14D7-4BDE-8B00-96D3865C1936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70. Climbing Stairs", "70. Climbing Stairs\70. Climbing Stairs.csproj", "{FFF1AFFF-0470-4EDC-A4CD-CB102D19A357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70. Climbing Stairs", "70. Climbing Stairs\70. Climbing Stairs.csproj", "{FFF1AFFF-0470-4EDC-A4CD-CB102D19A357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "746. Min Cost Climbing Stairs", "746. Min Cost Climbing Stairs\746. Min Cost Climbing Stairs.csproj", "{8423F6F6-E616-4075-BA16-189D006BF758}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "746. Min Cost Climbing Stairs", "746. Min Cost Climbing Stairs\746. Min Cost Climbing Stairs.csproj", "{8423F6F6-E616-4075-BA16-189D006BF758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{D0EB21E1-8597-41C9-A1D5-FEBDAF51DDA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Longest Palindromic Substring", "5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{D0EB21E1-8597-41C9-A1D5-FEBDAF51DDA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "647. Palindromic Substrings", "647. Palindromic Substrings\647. Palindromic Substrings.csproj", "{47AB3B72-8D85-444D-82F1-66A9E95A6EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "647. Palindromic Substrings", "647. Palindromic Substrings\647. Palindromic Substrings.csproj", "{47AB3B72-8D85-444D-82F1-66A9E95A6EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{2E3E509D-F19A-4857-932E-4E5B053C9CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "20. Valid Parentheses\20. Valid Parentheses.csproj", "{8CA217E0-CA64-490B-ABF6-ED5AC8B92210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "739. Daily Temperatures", "739. Daily Temperatures\739. Daily Temperatures.csproj", "{93A82D7F-718B-4AA8-8BBD-4608EBD1135A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -287,6 +293,14 @@ Global
 		{47AB3B72-8D85-444D-82F1-66A9E95A6EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47AB3B72-8D85-444D-82F1-66A9E95A6EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47AB3B72-8D85-444D-82F1-66A9E95A6EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA217E0-CA64-490B-ABF6-ED5AC8B92210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA217E0-CA64-490B-ABF6-ED5AC8B92210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA217E0-CA64-490B-ABF6-ED5AC8B92210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA217E0-CA64-490B-ABF6-ED5AC8B92210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A82D7F-718B-4AA8-8BBD-4608EBD1135A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A82D7F-718B-4AA8-8BBD-4608EBD1135A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A82D7F-718B-4AA8-8BBD-4608EBD1135A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A82D7F-718B-4AA8-8BBD-4608EBD1135A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,6 +362,9 @@ Global
 		{8423F6F6-E616-4075-BA16-189D006BF758} = {A8974EFE-14D7-4BDE-8B00-96D3865C1936}
 		{D0EB21E1-8597-41C9-A1D5-FEBDAF51DDA0} = {A8974EFE-14D7-4BDE-8B00-96D3865C1936}
 		{47AB3B72-8D85-444D-82F1-66A9E95A6EAE} = {A8974EFE-14D7-4BDE-8B00-96D3865C1936}
+		{2E3E509D-F19A-4857-932E-4E5B053C9CEF} = {04A57D4A-2331-4245-AE6A-D0DEB2A57470}
+		{8CA217E0-CA64-490B-ABF6-ED5AC8B92210} = {2E3E509D-F19A-4857-932E-4E5B053C9CEF}
+		{93A82D7F-718B-4AA8-8BBD-4608EBD1135A} = {2E3E509D-F19A-4857-932E-4E5B053C9CEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
