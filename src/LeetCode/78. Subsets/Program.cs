@@ -1,43 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+var sol = new Solution();
 
-int[] candidates = [1,2,3];
-
-var solution = new Solution();
-var results = solution.Subsets(candidates);
-
+var results = sol.Subsets([1, 2, 3]);
 for (int i = 0; i < results.Count; i++)
 {
-	Console.WriteLine(string.Join(", ", results[i]));
+	Console.WriteLine(string.Join(",", results[i].ToArray()));
 }
-
-
+Console.WriteLine("---");
 
 public class Solution
 {
 	public IList<IList<int>> Subsets(int[] nums)
 	{
 		var results = new List<IList<int>>();
-		var subset = new Stack<int>();		
 
-		void bfs(int index)
+		var subset  = new Stack<int>();
+
+		BFS(0);
+
+		void BFS(int index)
 		{
-			if (index >= nums.Length)
+			if(index > nums.Length - 1)
 			{
-				var lstCopy = new int[subset.Count];
-				subset.CopyTo(lstCopy, 0);
-				results.Add(lstCopy);
+				var arr = new int[subset.Count];
+				subset.CopyTo(arr, 0);
+				results.Add(arr);
 				return;
 			}
 
-
 			subset.Push(nums[index]);
-			bfs(index + 1);
+			BFS(index + 1);
+
 			subset.Pop();
-			bfs(index + 1);
+			BFS(index + 1);
 		}
 
-		bfs(0);
 		return results;
 	}
 }
