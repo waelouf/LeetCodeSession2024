@@ -1,21 +1,43 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-var kthLarget = new KthLargest();
+var kthLarget = new KthLargest(3, [4, 5, 8, 2]);
+Console.WriteLine(kthLarget.Add(3));
+Console.WriteLine(kthLarget.Add(5));
+Console.WriteLine(kthLarget.Add(10));
+Console.WriteLine(kthLarget.Add(9));
+Console.WriteLine(kthLarget.Add(4));
 
 
 public class KthLargest
 {
 	PriorityQueue<int, int> pq;
+	int k;
 
 	public KthLargest(int k, int[] nums)
 	{
-		 pq = new PriorityQueue<int, int>();
+		pq = new PriorityQueue<int, int>();
+		this.k = k;
+		foreach (var item in nums)
+		{
+			pq.Enqueue(item, item);
+		}
+
+		while (pq.Count > k)
+		{
+			pq.Dequeue();
+		}
 	}
 
 	public int Add(int val)
 	{
-		pq.Enqueue(val, val);
-		return 0;
+		this.pq.Enqueue(val, val);
+
+		if(pq.Count > k)
+		{
+			pq.Dequeue();
+		}
+
+		return pq.Peek();
 	}
 }
 
