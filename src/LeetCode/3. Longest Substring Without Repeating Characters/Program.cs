@@ -6,12 +6,34 @@ var sol = new Solution();
 
 Console.WriteLine(sol.LengthOfLongestSubstring("abcabcbb")); // 3
 Console.WriteLine(sol.LengthOfLongestSubstring("bbbbb")); // 1
-Console.WriteLine(sol.LengthOfLongestSubstring("au")); // 1
+Console.WriteLine(sol.LengthOfLongestSubstring("au")); // 2
 
 
 public class Solution
 {
+	
 	public int LengthOfLongestSubstring(string s)
+	{
+		int maxLength = 0;
+		int startingIndex = 0;
+		var charSet = new HashSet<char>();
+		for (int i = 0; i < s.Length; i++)
+		{
+			while (charSet.Contains(s[i]))
+			{
+				charSet.Remove(s[startingIndex]);
+				startingIndex++;
+			}
+
+			charSet.Add(s[i]);
+			maxLength = Math.Max(maxLength, i - startingIndex + 1);
+		}
+
+		return maxLength;
+	}
+
+
+	public int LengthOfLongestSubstringBruteForce(string s)
 	{
 		if(s.Length== 0) return 0;
 
