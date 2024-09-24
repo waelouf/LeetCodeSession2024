@@ -149,7 +149,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alkami Interview", "Alkami 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question", "Question 1\Question.csproj", "{6BD29FB8-7FF4-4952-8ECD-19559DC5B476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. 3Sum", "15. 3Sum\15. 3Sum.csproj", "{18602804-A448-48FB-9E18-F5D7166C0C10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15. 3Sum", "15. 3Sum\15. 3Sum.csproj", "{18602804-A448-48FB-9E18-F5D7166C0C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Longest Substring Without Repeating Characters", "3. Longest Substring Without Repeating Characters\3. Longest Substring Without Repeating Characters.csproj", "{64DFFFE1-A716-4028-92C2-47C535B4B9CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -349,6 +351,10 @@ Global
 		{18602804-A448-48FB-9E18-F5D7166C0C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18602804-A448-48FB-9E18-F5D7166C0C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18602804-A448-48FB-9E18-F5D7166C0C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DFFFE1-A716-4028-92C2-47C535B4B9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DFFFE1-A716-4028-92C2-47C535B4B9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DFFFE1-A716-4028-92C2-47C535B4B9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DFFFE1-A716-4028-92C2-47C535B4B9CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -422,6 +428,7 @@ Global
 		{867A0C14-E81E-4EF9-81AB-6D085B5F1C29} = {4AB95FF3-F2FA-417F-8E28-6A49456C94FC}
 		{6BD29FB8-7FF4-4952-8ECD-19559DC5B476} = {763CCECA-5BCA-4E37-815B-38D4F47F8B7C}
 		{18602804-A448-48FB-9E18-F5D7166C0C10} = {837821BB-5DA5-4FB8-B311-D2654699229B}
+		{64DFFFE1-A716-4028-92C2-47C535B4B9CF} = {9B92E57C-9DCE-4663-A371-5770B2229C6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F226D580-C1D8-4180-AB6A-15EBA43B1599}
